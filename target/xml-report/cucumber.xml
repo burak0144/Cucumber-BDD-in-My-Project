@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.931">
-    <testcase classname="US1001 Amazon search" name="TC02 Amazon iPhone search Testi" time="9.596">
-        <system-out>
-            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
-And iPhone icin arama yapar.................................................passed
-Then sonuclarin iPhone icerdigini test eder.................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.125">
+    <testcase classname="Amazon Practice" name="Amazon Sign in Test" time="0.284">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici Amazon web sitesine gider...................................undefined
+When sign in butonuna tiklar................................................skipped
+And faker kullanarak e-posta gonderir.......................................skipped
+And gonderdigi e-postanın ekran goruntusunu alir............................skipped
+And continiue'a tiklar......................................................skipped
+Then There was a problem mesajini dogrular..................................skipped
+And Need help e tiklar......................................................skipped
+And forgot your password e tiklar...........................................skipped
+And Password assistance metnini dogrular....................................skipped
+And Geri gider..............................................................skipped
+And Create your account butonuna tiklar.....................................skipped
+Then Create account metnini dogrular........................................skipped
+And sayfayi kapatir.........................................................skipped
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>
