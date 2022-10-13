@@ -1,3 +1,4 @@
+@Heroku
 Feature: US1010 Herokuapp buttonlarini test etme
 
 

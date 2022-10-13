@@ -13,4 +13,3 @@ Feature: Amazon Practice
  And Geri gider
  And Create your account butonuna tiklar
  Then Create account metnini dogrular
- And sayfayi kapatir

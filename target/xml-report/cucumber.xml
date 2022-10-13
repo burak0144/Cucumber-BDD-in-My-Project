@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.125">
-    <testcase classname="Amazon Practice" name="Amazon Sign in Test" time="0.284">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.856">
+    <testcase classname="Cucumber Java Manipulation" name="Practice click and Keys" time="0.202">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given kullanici Amazon web sitesine gider...................................undefined
-When sign in butonuna tiklar................................................skipped
-And faker kullanarak e-posta gonderir.......................................skipped
-And gonderdigi e-postanın ekran goruntusunu alir............................skipped
-And continiue'a tiklar......................................................skipped
-Then There was a problem mesajini dogrular..................................skipped
-And Need help e tiklar......................................................skipped
-And forgot your password e tiklar...........................................skipped
-And Password assistance metnini dogrular....................................skipped
-And Geri gider..............................................................skipped
-And Create your account butonuna tiklar.....................................skipped
-Then Create account metnini dogrular........................................skipped
-And sayfayi kapatir.........................................................skipped
+            <![CDATA[Given "https://testpages.herokuapp.com/styled/key-click-display-test.html" adresine gidin.undefined
+And 50 defa click me ye tiklayin............................................skipped
+And 50 defa Space dugmesine basin...........................................skipped
+And Down yazisindaki iki basamakli sayilarin hepsini toplayin...............skipped
+And Tum click metinlerinin uzunlugunun toplamini onceki toplamdan cikarin...skipped
+Then sonucun 1100 oldugunu dogrulayin.......................................skipped
 ]]>
         </failure>
     </testcase>

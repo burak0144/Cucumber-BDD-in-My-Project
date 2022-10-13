@@ -11,4 +11,4 @@ Feature: US1001 Amazon search
     Given kullanici amazon sayfasina gider
     And flower icin arama yapar
     Then sonuclarin flower icerdigini test eder
-    Then sayfayi kapatir
+
