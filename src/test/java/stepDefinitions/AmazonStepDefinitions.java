@@ -9,7 +9,7 @@ import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-import java.lang.module.Configuration;
+
 
 public class AmazonStepDefinitions {
     AmazonPage amazonPage = new AmazonPage();
