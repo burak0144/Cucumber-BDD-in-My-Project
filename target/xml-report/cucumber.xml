@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.816">
-    <testcase classname="US1012 demo adresine gidip sutun basligi ile liste alma" name="TC21 kullanici sutun basligi ile liste alabilmeli" time="14.372">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.29">
+    <testcase classname="US1001 Amazon search" name="TC02 Amazon iPhone search Testi" time="12.799">
         <system-out>
-            <![CDATA[Given kullanici "DemoGuruUrl" anasayfaya gider..............................passed
-And "Company" sutunundaki tum degerleri yazdirir............................passed
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And iPhone icin arama yapar.................................................passed
+Then sonuclarin iPhone icerdigini test eder.................................passed
 ]]>
         </system-out>
     </testcase>

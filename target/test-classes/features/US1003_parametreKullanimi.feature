@@ -18,3 +18,8 @@ Feature: US1001 Amazon search
     And "flower" icin arama yapar
     Then sonuclarin "flower" icerdigini test eder
     Then sayfayi kapatir
+
+    Scenario: TC08 Amazon Asus search Testi
+      And "Asus" icin arama yapar
+      Then sonuclarin "Asus" icerdigini test eder
+      Then sayfayi kapatir
