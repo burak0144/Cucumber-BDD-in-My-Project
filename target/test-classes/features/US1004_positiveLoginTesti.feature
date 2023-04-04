@@ -1,7 +1,6 @@
 Feature: US1004 Positive Login Testi
 
   Scenario: TC08 Positive Login Testi
-
     Given kullanici "AutoUrl" ana sayfasinda
     Then Log in yazisina tiklar
     And gecerli username "AutoUsername" girer
