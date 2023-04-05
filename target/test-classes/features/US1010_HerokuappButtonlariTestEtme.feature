@@ -1,8 +1,7 @@
 @Heroku
 Feature: US1010 Herokuapp buttonlarini test etme
 
-
-  Scenario: TC16 herokuapp'da add butonuna basma
+Scenario: TC16 herokuapp'da add butonuna basma
     Given kullanici "HerokuappUrl" sayfasina gider
     Then  kullanici “Add Element” butona basar
 

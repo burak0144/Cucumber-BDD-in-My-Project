@@ -42,11 +42,11 @@ public class HerokuappStepDefinitions {
 
     @And("kullanici Delete butonuna basarak butonu silin")
     public void kullaniciDeleteButonunaBasarakButonuSilin() {
-        herokuappPage.deleteElementList.forEach(t->t.click());
+        herokuappPage.deleteElementList.forEach(WebElement::click);
     }
 
     @And("kullanici Delete butonunun gorunmedigini test edin")
     public void kullaniciDeleteButonununGorunmediginiTestEdin() {
-        Assert.assertTrue(herokuappPage.deleteElementList.size()==0);
+        Assert.assertEquals(0, herokuappPage.deleteElementList.size());
     }
 }
