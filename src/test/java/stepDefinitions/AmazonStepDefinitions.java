@@ -53,7 +53,7 @@ public class AmazonStepDefinitions {
 
     @Then("sayfayi kapatir")
     public void sayfayiKapatin() {
-        Driver.closeDriver();
+        Driver.quitDriver();
     }
 
 
