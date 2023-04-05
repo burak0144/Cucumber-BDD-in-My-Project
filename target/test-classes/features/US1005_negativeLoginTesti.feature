@@ -24,7 +24,7 @@ Feature: US1005 Negative Login Testi
 
   Scenario: TC11 yanlis username, yanlis sifre ile giris yapilamaz
 
-    
+
     And gecersiz username "AutoWrongUsername" girer
     And gecersiz password "AutoWrongPassword" girer
     And Login butonuna basar
