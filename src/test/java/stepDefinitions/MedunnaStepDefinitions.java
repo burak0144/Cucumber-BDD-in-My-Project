@@ -48,7 +48,6 @@ public class MedunnaStepDefinitions {
 
     @Given("kullanici {string} anasayfasina gider")
     public void kullaniciAnasayfasinaGider(String url) {
-
         Driver.getDriver().get(url);
     }
 }
